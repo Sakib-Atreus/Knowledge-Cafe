@@ -20,7 +20,7 @@ const Bookmarked = ({ readTime, bookmarkPosts, resetSpentTime }) => {
 
                 </div>
 
-                <div className='bg-teal p-5 md:p-8 my-3 md:my-6 rounded-lg'>
+                <div className='bg-teal p-5 md:p-8 my-3 md:my-6 border-2 border-black rounded-lg'>
                     <h5 className='text-skyblue text-2xl font-bold '>Bookmarked Blogs : {bookmarkPosts.length}</h5>
 
                     {/* Start BookmarksPosts Handler */}

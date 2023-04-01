@@ -6,12 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'purple': '#7e5bef',
       'purple-light': '#efedfd',
-      'cart-clr': '#f3f3f3',
       'white': '#fff',
       'teal': 'rgb(8 47 73)',
-      'skyblue': 'rgb(56 189 248)'
+      'skyblue': 'rgb(56 189 248)',
+      'black': 'black'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
