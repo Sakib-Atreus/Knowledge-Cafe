@@ -4,7 +4,7 @@ import './Questions.css';
 const Questions = () => {
     return (
         <div className='questions'>
-            <h1 className='question-div'>All Questions Answer : </h1>
+            <h1 className='question-div text-lg'>All Questions Answer : </h1>
 
             <div className="question-answer">
             <h2>1. How does React work?</h2>
