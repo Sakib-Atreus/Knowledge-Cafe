@@ -50,7 +50,7 @@ const Main = () => {
     }
     return (
         <main >
-            <section className='grid md:grid-cols-3 gap-5 mx-2 md:mx-0  my-3'>
+            <section className='grid md:grid-cols-3 gap-5 mx-2 md:mx-0 my-3'>
                 <div className='md:col-span-2'>
                     {/* using map for using all data of json file */}
                     {
