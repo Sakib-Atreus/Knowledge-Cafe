@@ -21,7 +21,7 @@ const Blog = (props) => {
                 <img className='rounded-lg w-full' src={thumbnail} alt="thumbnail" />
                 <div className='flex justify-between items-center pt-5'>
                     <div className='flex items-center'>
-                        <img className='w-[15%] rounded-full mr-3 ' src={image} alt="author-pic" />
+                        <img className='w-[15%] rounded-full mr-3' src={image} alt="author-pic" />
                         <div>
                             <h3 className='font-bold'>{firstName + ' ' + lastName}</h3>
                             <p>{postDate}</p>
