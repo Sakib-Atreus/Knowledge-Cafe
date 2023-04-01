@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------
+        Utilities Style      
+------------------------------*/
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Exo 2', sans-serif;
+}
