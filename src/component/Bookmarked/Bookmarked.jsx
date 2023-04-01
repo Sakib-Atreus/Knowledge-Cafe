@@ -8,9 +8,9 @@ const Bookmarked = ({ readTime, bookmarkPosts, resetSpentTime }) => {
 
     return (
         <div className='relative'>
-            <div className='sticky top-5'>
+            <div className='sticky top-7'>
                 <div className='flex items-center gap-5 justify-center bg-purple-light p-5 border-2 border-skyblue rounded-lg'>
-                    <h5 className=' text-center font-black text-skyblue text-2xl'>Spent time on read : {readTime} min </h5>
+                    <h5 className='text-center font-black text-skyblue text-2xl'>Spent time on read : {readTime} min </h5>
                     
                     {/* Start FontAwesomeIcon Function*/}
                     <FontAwesomeIcon onClick={() => resetSpentTime()} className='cursor-pointer bg-teal p-3 rounded-lg text-white'
