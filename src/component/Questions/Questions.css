@@ -1,0 +1,23 @@
+.questions{
+    background-color: rgb(4, 63, 102);
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.question-div{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: deepskyblue;
+}
+.question-answer{
+    margin: 20px;
+}
+.question-answer h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
